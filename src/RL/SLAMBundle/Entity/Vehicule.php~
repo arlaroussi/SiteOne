@@ -1,0 +1,37 @@
+<?php
+
+namespace RL\SLAMBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Vehicule
+ *
+ * @ORM\Table(name="vehicule")
+ * @ORM\Entity(repositoryClass="RL\SLAMBundle\Repository\VehiculeRepository")
+ */
+
+class Vehicule
+{
+    /** @ORM\Id @ORM\Column(type="string") */
+    private $name;
+    /** @ORM\Id @ORM\Column(type="integer") */
+    private $year;
+
+    public function __construct($name, $year)
+    {
+        $this->name = $name;
+        $this->year = $year;
+    }
+
+    public function getModelName()
+    {
+        return $this->name;
+    }
+
+    public function getYearOfProduction()
+    {
+        return $this->year;
+    }
+}
+

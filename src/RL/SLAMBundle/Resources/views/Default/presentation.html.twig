@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	 <title>
+	 	{% block title %}Présentation du BTS SIO{% endblock %}
+	 </title>
+	<META charset="UTF-8" />
+	 <!-- <link rel="stylesheet" type="text/css" href="css/accueil.css"> --> 
+
+ {% block stylesheets %}
+        <link rel="stylesheet" href="{{ 'bundles/css/accueil.css' }}" type="text/css" media="all" />
+ {% endblock %}
+</HEAD>
+<BODY>
+
+	<img src="images/bts-sio.png" id="image1" />
+
+<HEADER>
+	<H2>BTS SIO (Services Informatiques aux Organisations)</H2>
+</HEADER>	
+
+<SECTION id="absolu1">
+	<ARTICLE>
+		<H3> INFTYPE, numéro un dans le domaine du numérique en France </H3>
+		Créée en 1981, l’école d’informatique INFTYPE forme ses étudiants aux évolutions de l’informatique 
+		en s’adaptant aux besoins des entreprises d’un secteur très dynamique.
+		Accessible à partir du Bac, INFTYPE forme ses étudiants à tous les métiers de l’informatique 
+		à travers diverses spécialisations. 
+
+	</ARTICLE>
+
+	<ARTICLE>
+		<H3> Cursus INFTYPE </H3>
+		INFTYPE propose deux cycles : Cycle Bachelor (Bac à Bac+3) et Cycle Mastère (Bac+3 à Bac+5).
+		Dotée de nombreux laboratoires et construite sur une proximité très forte du monde de l’entreprise, 
+		INFTYPE est l’école d’informatique leader dans la formation d’informaticiens en France.
+	</ARTICLE>
+
+	<ARTICLE>
+		<img src="images/serveur1.jpg" id="image3" />
+	</ARTICLE>
+
+	<ARTICLE>
+		<H3>Sites de formation</H3>
+		Les formations de l'école INFTYPE sont dispensés sur plusieurs sites en France métropolitaine 
+		et à l'étranger.
+		<h4 id="interligne">Sites en France</h4>
+		<UL> 
+			<li>PARIS</li>
+			<li>TOULOUSE</li>
+			<li>LYON</li>
+			<li>NANTES</li>
+		</ul>
+		<h4 id="interligne">Sites à l'étranger</h4>
+		<ul>
+			<li>Londres</li>
+			<li>Casablanca</li>
+		</ul>
+	</ARTICLE>
+</SECTION>
+
+<FOOTER>
+    <p>
+    	Ecole : INFTYPE - Ecole supérieyre d'informatique
+	</p>
+    <p>
+      <Adresse>
+      	 53 rue de la Pierre Levée
+      	 75011 PARIS
+      </Adresse>
+   </p>
+
+</FOOTER>
+</BODY>
+</HTML>

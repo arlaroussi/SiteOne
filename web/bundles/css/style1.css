@@ -1,0 +1,119 @@
+section {
+	background :  #e8daef;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+#image1 {
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	width:100px;
+	height:75px;
+}
+
+#image2 {
+	position:absolute;
+	margin-left: 100px;
+	margin-right: 130px;
+	margin-top: 130px;
+	width: 75%;
+	height: 60%; 
+}
+
+body {
+	width: 90%;
+	height: 100%;
+	align-self: center;
+	font-family: "Times New Roman", Times, serif;
+	color: #333;
+	background-color: lightblue;
+	-moz-box-shadow: 0px 0px 10px #000;
+}
+
+h2 {
+	border: 3px solid  #145a32 ;
+	background-color:   #f7dc6f ;
+	box-shadow: 2px 2px 0px gray;
+	width : 30%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Jazz LET, fantasy;
+	text-align: center;
+	color: #4A1A2C;
+	text-shadow: 0px 1px 0px #CAE9F9;
+}
+
+h3 {
+	color : #006400;
+}
+
+.relative1 {
+  position: relative;
+}
+
+
+.relative2 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  background-color: yellow;
+  width: 500px;
+}
+
+footer {
+	position: fixed;
+	display: block;
+	text-align: center;
+	background:#ccc;
+	bottom:0;
+	line-height: 0.05em;
+	height:50px;
+	width: 100%;
+}
+
+header {
+	width:100%;
+}
+
+
+nav {
+	border : 3px solid  #af7ac5 ;
+	border-radius: 15px;
+	position : absolute;
+	height: 75px;
+  	width: 75%;
+  	top: 95px;
+	left: 125px;
+  	list-style: none;
+  	text-align: center;
+}
+
+/* Je sélectionne les <li> du menu horizontal */
+nav ul li { 
+	display : inline;
+	text-align: center;
+	padding: 0.5em 0.5em; 
+	font-family: Luminari, fantasy;
+	font-size: 1.3em;
+	border: 3px outset  #4a235a ;
+	background:#d7bde2 url(motif2.jpg) repeat-x;
+	border-radius: 15px;
+	box-shadow: 2px 2px 0px gray;
+	margin-left: 50px ;
+}
+
+ul li a {
+	line-height:50px;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+ 	text-align:center;
+}
+
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+} 

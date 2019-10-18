@@ -1,0 +1,4 @@
+services:
+#    lar_work.example:
+#        class: LAR\WorkBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,62 @@
+rlslam_homepage:
+    path:     /
+    defaults: { _controller: RLSLAMBundle:Default:index }
+
+rlslam_homepage_1:
+    path:     /ajouterCand/{id}
+    defaults: { _controller: RLSLAMBundle:Candidat:addCand }
+    
+rlslam_homepage_1bis:
+    path:     /ajouterSpec/{id}
+    defaults: { _controller: RLSLAMBundle:Candidat:addSpec }
+
+rlslam_homepage_2:
+    path:     /display
+    defaults: { _controller: RLSLAMBundle:Candidat:show }  
+
+rlslam_homepage_3:
+    path:     /display/{val}
+    defaults: { _controller: RLSLAMBundle:Candidat:show }       
+
+rlslam_homepage_4:
+    path:     /liste
+    defaults: { _controller: RLSLAMBundle:Candidat:liste }
+
+rlslam_homepage_5:
+    path:     /update/{id}
+    defaults: { _controller: RLSLAMBundle:Candidat:update }
+    
+rlslam_homepage_6:
+    path:     /formcandidat
+    defaults: { _controller: RLSLAMBundle:Candidat:formCand }
+    
+rlslam_homepage_6_bis:
+    path:     /formspecialite
+    defaults: { _controller: RLSLAMBundle:Candidat:formSpec }
+rlslam_homepage_7:
+    path:     /authentification
+    defaults: { _controller: RLSLAMBundle:Candidat:authentif }
+    
+rlslam_homepage_8:
+    path:     /login
+    defaults: { _controller: RLSLAMBundle:Security:login }
+    
+rlslam_homepage_9:
+    path:     /repo/{id}
+    defaults: { _controller: RLSLAMBundle:Candidat:rechercherCand }
+    
+rlslam_homepage_10:
+    path:     /repoliste/{id}
+    defaults: { _controller: RLSLAMBundle:Candidat:candSpec }
+    
+rlslam_homepage_11:
+    path:     /compter
+    defaults: { _controller: RLSLAMBundle:Candidat:compterParSpec }
+    
+rlslam_homepage_12:
+    path:     /supprimer/{nom}/{prenom}
+    defaults: { _controller: RLSLAMBundle:Candidat:supprimerCand }
+    
+rlslam_homepage_13:
+    path:     /listeliste
+    defaults: { _controller: RLSLAMBundle:Candidat:rechercherListe }
